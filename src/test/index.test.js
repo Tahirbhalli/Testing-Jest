@@ -1,5 +1,6 @@
 const Calculaor = require('../js/Calculater');
 const str = require('../js/stringoperation');
+
 test('Sum', () => {
   expect(Calculaor.sum(1, 1)).toBe(2);
 });
